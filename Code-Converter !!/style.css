@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1a1c2e 0%, #02235a 100%);
+    color: white;
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    animation: rainbow 2s infinite;
+}
+
+.subtitle {
+    text-align: center;
+    color: #94a3b8;
+    margin-bottom: 2rem;
+}
+
+@keyframes rainbow {
+    0% { text-shadow:0px 0px 10px red; }
+    14% { text-shadow:0px 0px 10px orange; }
+    28% { text-shadow:0px 0px 10px yellow; }
+    42% { text-shadow:0px 0px 10px green; }
+    57% { text-shadow:0px 0px 10px blue; }
+    71% { text-shadow:0px 0px 10px indigo; }
+    85% { text-shadow:0px 0px 10px violet; }
+    100% { text-shadow:0px 0px 10px red; }
+}
+
+.converter-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .converter-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.code-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.language-select select {
+    background-color: #374151;
+    color: white;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s;
+}
+
+.language-select select:focus {
+    box-shadow: 0 0 0 2px #3b82f6;
+}
+
+.language-select select:hover {
+    background-color: #4b5563;
+}
+
+.target-wrapper {
+    position: relative;
+    flex-grow: 1;
+}
+
+textarea {
+    width: 100%;
+    height: 400px;
+    background-color: #1f2937;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: "Monaco", "Consolas", monospace;
+    font-size: 0.875rem;
+    resize: none;
+    outline: none;
+    transition: box-shadow 0.2s;
+}
+
+textarea:focus {
+    box-shadow: 0 0 0 2px #3b82f6;
+}
+
+.copy-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #374151;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.copy-button:hover {
+    background-color: #4b5563;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.swap-button,
+.convert-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s;
+}
+
+.swap-button {
+    background-color: #50ad19;
+    color: white;
+}
+
+.swap-button:hover {
+    background-color: #4fad19d0;
+}
+
+.convert-button {
+    background-color: #2563eb;
+    color: white;
+}
+
+.convert-button:hover {
+    background-color: #1d4ed8;
+}
+
+.convert-button.converting {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.check-icon,
+.copy-icon {
+    transition: opacity 0.2s;
+}
+
+.footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    font-size: 0.70rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

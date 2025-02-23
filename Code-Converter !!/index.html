@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Language Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Code Language Converter</h1>
+        <p class="subtitle">Transform your code between different programming languages</p>
+
+        <div class="converter-grid">
+            <div class="code-section">
+                <div class="language-select">
+                    <select id="sourceLang">
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="C++">C++</option>
+                        <option value="Ruby">Ruby</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Swift">Swift</option>
+                        <option value="Go">Go</option>
+                        <option value="Rust">Rust</option>
+                        <option value="TypeScript">TypeScript</option>
+                    </select>
+                </div>
+                <textarea 
+                    id="sourceCode" 
+                    placeholder="Paste your code here..."
+                ></textarea>
+            </div>
+            <div class="code-section">
+                <div class="language-select">
+                    <select id="targetLang">
+                        <option value="Python">Python</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Java">Java</option>
+                        <option value="C++">C++</option>
+                        <option value="Ruby">Ruby</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Swift">Swift</option>
+                        <option value="Go">Go</option>
+                        <option value="Rust">Rust</option>
+                        <option value="TypeScript">TypeScript</option>
+                    </select>
+                </div>
+                <div class="target-wrapper">
+                    <textarea 
+                        id="convertedCode" 
+                        readonly
+                    ></textarea>
+                    <button id="copyButton" class="copy-button" style="display: none;">
+                        <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        <svg class="check-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="swapButton" class="swap-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m17 3-5 5-5-5"></path>
+                    <path d="m17 21-5-5-5 5"></path>
+                </svg>
+                Swap Languages
+            </button>
+            <button id="convertButton" class="convert-button">Convert Code</button>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>All Copy Rights Reserved by @aviiCoders!!</h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
