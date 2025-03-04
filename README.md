@@ -30,8 +30,7 @@ Welcome to the **Code Converter** repository! This is a versatile tool designed 
    git clone https://github.com/arvindyadavtechii/Code-Converter
 Navigate to the Project Folder
 
-2. **bash**
- ```bash
+2.```bash
 cd code-converter
 
 
