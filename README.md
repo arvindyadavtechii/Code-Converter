@@ -31,8 +31,7 @@ Welcome to the **Code Converter** repository! This is a versatile tool designed 
 Navigate to the Project Folder
 
 2.   ```bash
-   cd code-converter
-Navigate to the Project Folder
+     cd code-converter
 
 3.**Open the Project**
 Open the index.html file in your browser to use the Code Converter.
