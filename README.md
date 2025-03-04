@@ -49,16 +49,14 @@ Open the index.html file in your browser to use the Code Converter.
 7.**View the converted code in the output box**.
 
 
-🖥️ **Preview**
+🖥️ Preview
 Check out the live demo of the Code Converter:
 [Live Demo](https://code-converter-orcin.vercel.app/)
 
 
 
-📁 **Project Structure**
+📁 Project Structure
 The repository is organized as follows:
-
-
 Copy
 code-converter/
 ├── index.html          # Main HTML file
