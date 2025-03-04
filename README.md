@@ -53,8 +53,6 @@ Open the index.html file in your browser to use the Code Converter.
 Check out the live demo of the Code Converter:
 [Live Demo](https://code-converter-orcin.vercel.app/)
 
-
-
 📁 Project Structure
 The repository is organized as follows:
 Copy
@@ -63,10 +61,11 @@ code-converter/
 ├── styles.css          # CSS file for styling
 ├── script.js           # JavaScript file for functionality
 ├── README.md           # This README file
+
+
 📚 Learning Resources
 
-
-**If you’re new to HTML, CSS, and JavaScript, here are some resources to get started:**
+If you’re new to HTML, CSS, and JavaScript, here are some resources to get started:
 
 1.MDN Web Docs - HTML
 
@@ -77,6 +76,7 @@ code-converter/
 4.JavaScript.info
 
 5.FreeCodeCamp
+
 
 🤝 Contributing
 Contributions are welcome! If you have any improvements, bug fixes, or new features to add, feel free to open a pull request. Please follow these steps:
@@ -91,8 +91,12 @@ Contributions are welcome! If you have any improvements, bug fixes, or new featu
 
 5.Open a pull request.
 
+
 📄 License
+
 This repository is licensed under the MIT License. See the LICENSE file for more details.
 
+
 Happy Coding! 🎉
+
 If you find this repository helpful, don’t forget to give it a ⭐️!
