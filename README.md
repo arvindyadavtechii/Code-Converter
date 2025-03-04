@@ -31,6 +31,7 @@ Welcome to the **Code Converter** repository! This is a versatile tool designed 
 Navigate to the Project Folder
 
 2. **bash**
+ ```bash
 cd code-converter
 
 
@@ -81,7 +82,7 @@ code-converter/
 
 5.FreeCodeCamp
 
-🤝 **Contributing**
+🤝 Contributing
 Contributions are welcome! If you have any improvements, bug fixes, or new features to add, feel free to open a pull request. Please follow these steps:
 
 1.Fork the repository.
@@ -94,8 +95,8 @@ Contributions are welcome! If you have any improvements, bug fixes, or new featu
 
 5.Open a pull request.
 
-📄 **License**
+📄 License
 This repository is licensed under the MIT License. See the LICENSE file for more details.
 
-**Happy Coding!** 🎉
+Happy Coding! 🎉
 If you find this repository helpful, don’t forget to give it a ⭐️!
