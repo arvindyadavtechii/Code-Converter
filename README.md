@@ -30,26 +30,35 @@ Welcome to the **Code Converter** repository! This is a versatile tool designed 
    git clone https://github.com/arvindyadavtechii/Code-Converter
 Navigate to the Project Folder
 
-2.bash
+2. **bash**
 cd code-converter
 
-3.Open the Project
+
+3.**Open the Project**
 Open the index.html file in your browser to use the Code Converter.
 
-4.Convert Code
 
-5.Select the input and output languages.
+4.**Convert Code**
 
-6.Paste or type your code in the input box.
 
-7.View the converted code in the output box.
+5.**Select the input and output languages**.
 
-🖥️ Preview
+
+6.**Paste or type your code in the input box**.
+
+
+7.**View the converted code in the output box**.
+
+
+🖥️ **Preview**
 Check out the live demo of the Code Converter:
 [Live Demo](https://code-converter-orcin.vercel.app/)
 
-📁 Project Structure
+
+
+📁 **Project Structure**
 The repository is organized as follows:
+
 
 Copy
 code-converter/
@@ -58,7 +67,9 @@ code-converter/
 ├── script.js           # JavaScript file for functionality
 ├── README.md           # This README file
 📚 Learning Resources
-If you’re new to HTML, CSS, and JavaScript, here are some resources to get started:
+
+
+**If you’re new to HTML, CSS, and JavaScript, here are some resources to get started:**
 
 1.MDN Web Docs - HTML
 
@@ -70,7 +81,7 @@ If you’re new to HTML, CSS, and JavaScript, here are some resources to get sta
 
 5.FreeCodeCamp
 
-🤝 Contributing
+🤝 **Contributing**
 Contributions are welcome! If you have any improvements, bug fixes, or new features to add, feel free to open a pull request. Please follow these steps:
 
 1.Fork the repository.
@@ -83,8 +94,8 @@ Contributions are welcome! If you have any improvements, bug fixes, or new featu
 
 5.Open a pull request.
 
-📄 License
+📄 **License**
 This repository is licensed under the MIT License. See the LICENSE file for more details.
 
-Happy Coding! 🎉
+**Happy Coding!** 🎉
 If you find this repository helpful, don’t forget to give it a ⭐️!
