@@ -63,7 +63,7 @@ If you’re new to HTML, CSS, and JavaScript, here are some resources to get sta
 
 2. **Navigate to the specific project folder**:
    ```bash
-   cd Code-Converter/project-name
+   cd Code-Converter
 Open the index.html file in your browser to view the project.
 
 ---
