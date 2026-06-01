@@ -1,6 +1,6 @@
 # Code Converter
 
-Welcome to the **Code Converter** repository! This is a versatile tool designed to convert code from one programming language to another. Built using **HTML, CSS, and JavaScript**, this converter is perfect for developers who want to quickly translate code snippets between different languages.
+Welcome to the **Code Converter** repository! This is a versatile tool designed to convert code from one programming language to another. Built using **HTML, CSS, and JavaScript**, this converter is perfect for developers who want to quickly translate code snippets between different languages..
 
 ---
 
